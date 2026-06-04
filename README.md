@@ -47,33 +47,6 @@ Telegram-бот для ведения дневника КПТ (когнитив�
 
 ---
 
-## 🏗️ Архитектура проекта
-
-CBT Diary/
-├── handlers/
-│   ├── diary/           # 7 файлов (steps, save, continue_entries и др.)
-│   ├── stats.py
-│   ├── settings.py
-│   └── start.py
-├── database/
-│   ├── models.py
-│   └── engine.py
-├── utils/
-│   ├── validators.py
-│   ├── security.py
-│   ├── rate_limiter.py
-│   ├── reminders.py
-│   ├── export.py
-│   └── deletion_utils.py
-├── keyboards.py
-├── states.py
-├── config.py
-├── main.py
-└── requirements.txt
-
-
----
-
 ## 🚀 Установка и запуск
 
 ### 1. Клонирование репозитория
