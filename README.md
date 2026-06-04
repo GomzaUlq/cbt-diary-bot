@@ -51,7 +51,7 @@ Telegram-бот для ведения дневника КПТ (когнитив�
 
 
 ```bash
-### 1. Клонирование репозитория
+1. Клонирование репозитория
 git clone https://github.com/yourusername/cbt-diary-bot.git
 cd cbt-diary-bot
 
