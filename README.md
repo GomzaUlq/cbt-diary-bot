@@ -50,33 +50,26 @@ Telegram-бот для ведения дневника КПТ (когнитив�
 ## 🏗️ Архитектура проекта
 
 CBT Diary/
-├── handlers/ # Обработчики команд
-│ ├── diary/ # Модуль дневника (7 файлов)
-│ │ ├── steps.py # Шаги создания записи
-│ │ ├── save.py # Сохранение в БД
-│ │ ├── continue_entries.py # Черновики
-│ │ ├── delete_entries.py # Удаление
-│ │ ├── view_entries.py # Просмотр
-│ │ └── callbacks.py # Callback-хендлеры
-│ ├── stats.py # Статистика
-│ ├── settings.py # Настройки
-│ └── start.py # Старт и меню
-├── database/ # Работа с БД
-│ ├── models.py # SQLAlchemy модели
-│ └── engine.py # Подключение к PostgreSQL
-├── utils/ # Утилиты
-│ ├── validators.py # Валидация ввода
-│ ├── security.py # Шифрование, CSRF
-│ ├── rate_limiter.py # Ограничение запросов
-│ ├── reminders.py # Напоминания
-│ ├── export.py # Excel-экспорт
-│ └── deletion_utils.py # Удаление записей
-├── keyboards.py # Клавиатуры
-├── states.py # FSM состояния
-├── config.py # Конфигурация
-├── main.py # Точка входа
-└── requirements.txt # Зависимости
-text
+├── handlers/
+│   ├── diary/           # 7 файлов (steps, save, continue_entries и др.)
+│   ├── stats.py
+│   ├── settings.py
+│   └── start.py
+├── database/
+│   ├── models.py
+│   └── engine.py
+├── utils/
+│   ├── validators.py
+│   ├── security.py
+│   ├── rate_limiter.py
+│   ├── reminders.py
+│   ├── export.py
+│   └── deletion_utils.py
+├── keyboards.py
+├── states.py
+├── config.py
+├── main.py
+└── requirements.txt
 
 
 ---
